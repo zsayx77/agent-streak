@@ -11,7 +11,7 @@ const AGENT_ID_REGISTRY = "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F";
 
 // Set by the deploy step. Until then the page shows read-only info and a
 // "not deployed yet" banner; check-ins stay disabled.
-const CONTRACT_ADDRESS = null; // TODO: set to the deployed AgentStreak address
+const CONTRACT_ADDRESS = "0xb3662fEb6F4cbDF2ca4FC561C618D8Ffdd0Afb24"; // AgentStreak deployed on BNB Chain (BSC mainnet), 18 Nov 2026
 
 const REGISTRY_ABI = ["function balanceOf(address owner) view returns (uint256)"];
 const STREAK_ABI = [
